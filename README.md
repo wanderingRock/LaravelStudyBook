@@ -25,3 +25,12 @@ php artisan migrate:fresh --seed
 php artisan tinker
 factory(App\User::class, 200)->create(); 
 ```
+
+
+
+### Laravel 相關說明(實做&紀錄)
+
+
+
+### Laravel 目錄結構
+https://justcode.ikeepstudying.com/2021/07/php%E6%A1%86%E6%9E%B6%EF%BC%9Alaravel-%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D-laravel%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84-laravel-%E5%90%84%E6%96%87%E4%BB%B6/
