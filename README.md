@@ -24,6 +24,9 @@ php artisan migrate:fresh --seed
 資料庫產生虛擬資料 > 對user產生200筆虛擬資料
 php artisan tinker
 factory(App\User::class, 200)->create(); 
+
+docker 開機自動啟動 
+docker container update --restart=always $(docker ps -a -q)
 ```
 
 
