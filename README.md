@@ -14,6 +14,7 @@ composer install
 進入容器 (php-fpm) 放編放或是容器名稱
 docker exec -it d42d bash  
 winpty docker exec -it d42d bash
+winpty docker exec -it laradock_workspace_1 //bin//bash
 
 先建好資料庫再產生資料   
 php artisan migrate
